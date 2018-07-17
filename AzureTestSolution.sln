@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAgent", "TestAgent\TestAgent.csproj", "{68310280-CF32-4463-9084-5E9D11FF82AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAgent", "TestAgent\TestAgent.csproj", "{68310280-CF32-4463-9084-5E9D11FF82AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTMessageProcessor", "IoTMessageProcessor\IoTMessageProcessor.csproj", "{7AE5F7F5-E6F8-415C-BE03-842BD2EA6003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTest.Common", "AzureTest.Common\AzureTest.Common.csproj", "{E4F20AA9-EB16-4426-B1F4-9057721AFA9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{68310280-CF32-4463-9084-5E9D11FF82AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68310280-CF32-4463-9084-5E9D11FF82AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68310280-CF32-4463-9084-5E9D11FF82AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE5F7F5-E6F8-415C-BE03-842BD2EA6003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE5F7F5-E6F8-415C-BE03-842BD2EA6003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE5F7F5-E6F8-415C-BE03-842BD2EA6003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE5F7F5-E6F8-415C-BE03-842BD2EA6003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F20AA9-EB16-4426-B1F4-9057721AFA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F20AA9-EB16-4426-B1F4-9057721AFA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F20AA9-EB16-4426-B1F4-9057721AFA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F20AA9-EB16-4426-B1F4-9057721AFA9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
